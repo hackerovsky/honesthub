@@ -1,0 +1,44 @@
+.widget-deals__row {
+  padding-bottom: 16px;
+  
+  &:not(:last-child) {
+    border-bottom: 1px solid $c-greyLight;
+    margin-bottom: 24px;
+  }
+}
+
+.widget-deals__item-avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+
+  & > img {
+    width: 100%;
+  }
+}
+
+.widget-deals__item-title {
+  font-size: 18px;
+  line-height: 21px;
+  color: #284E7B;
+}
+
+.widget-deals__item-rating {
+  width: 76px;
+  height: 12px;
+  margin-top: 4px;
+}
+
+.widget-deals__item-head {
+  display: flex;
+}
+
+.widget-deals__item-content {
+  margin-top: 16px;
+}
+
+.widget-deals__item-content > p {
+  font-size: 14px;
+  line-height: 130%;
+  color: #484E55;
+}

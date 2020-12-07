@@ -1,0 +1,17 @@
+.widget-nav__item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding: 0 32px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #484E55;
+  transition: .24s ease-in;
+  border-left: 2px solid transparent;
+
+  &:hover, &.is-active {
+    background-color: #EDF1F6;
+    border-left: 2px solid #284E7B;
+  }
+}

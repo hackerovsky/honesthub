@@ -1,0 +1,32 @@
+.widget-recommend__row {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+.widget-recommend__avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.widget-recommend__info-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #484E55;
+}
+
+.widget-recommend__info-subtitle {
+  margin-top: 2px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #C3CEDA;
+}

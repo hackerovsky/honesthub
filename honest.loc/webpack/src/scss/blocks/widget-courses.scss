@@ -1,0 +1,71 @@
+.widget-courses__row {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.widget-courses__col {
+  font-size: 14px;
+  line-height: 16px;
+  color: #484E55;
+
+  &:not(:last-child) {
+    margin-right: 46px;
+  }
+}
+
+.widget-courses__label {
+  font-weight: 500;
+}
+
+.widget-courses__time {
+  color: #C3CEDA;
+}
+
+.widget-courses__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.widget-courses__head-sort {
+  display: flex;
+  font-size: 14px;
+  line-height: 16px;
+  color: #C3CEDA;
+}
+
+.widget-courses__head-sort-item {
+  
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+}
+
+.widget-courses__head-select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  width: 100px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #D3DEE9;
+  border-radius: 5px;
+}
+
+.widget-courses__head-select-icon {
+  width: 13px;
+  height: 24px;
+}
+
+.widget-courses__head-select-label {
+  font-size: 18px;
+  line-height: 133.19%;
+  letter-spacing: 0.01em;
+  color: #86929F;
+}

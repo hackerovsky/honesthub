@@ -1,0 +1,46 @@
+// System
+@import './system/_fonts.scss';
+@import './system/_vars.scss';
+@import './system/_start.scss';
+//blocks
+@import './blocks/base';
+@import './blocks/topbar';
+@import './blocks/header';
+@import './blocks/content';
+@import './blocks/block';
+@import './blocks/btn';
+
+@import './blocks/profile-info';
+@import './blocks/news-item';
+@import './blocks/motivation-item';
+@import './blocks/comment';
+@import './blocks/education';
+@import './blocks/startups';
+@import './blocks/community';
+@import './blocks/partners';
+@import './blocks/investments';
+@import './blocks/crypto';
+@import './blocks/credit';
+
+@import './blocks/widget';
+@import './blocks/widget-balance';
+@import './blocks/widget-rating';
+@import './blocks/widget-profile';
+@import './blocks/widget-deals';
+@import './blocks/widget-quote';
+@import './blocks/widget-recommend';
+@import './blocks/widget-nav';
+@import './blocks/widget-courses';
+@import './blocks/sidebar-links';
+
+@import './blocks/menu-btn';
+@import './blocks/m-menu';
+@import './blocks/auth';
+
+@import '~swiper/dist/css/swiper.min.css';
+@import '~photoswipe/dist/photoswipe.css';
+//@import '~photoswipe/dist/default-skin/default-skin.css';
+@import '~jquery-modal/jquery.modal.min.css';
+@import '../../node_modules/magnific-popup/dist/magnific-popup.css';
+
+

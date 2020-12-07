@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Кредит - Honest - социальная сеть для предпренимателей</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#484e55">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+    style="height: 0; width: 0; position: absolute; top: -99999px; left: -99999px; visibility: hidden;">
+    <symbol id="i-appointment" viewBox="0 0 24 24">
+      <path fill="#86929f"
+        d="M10 24a3.74 3.74 0 003.67-3H6.33A3.74 3.74 0 0010 24zM17.58 14.5h-.08A8 8 0 0111 1.85V1a1 1 0 00-2 0v1.08A7 7 0 003 9v2.79a6.69 6.69 0 01-2.39 5.13A1.75 1.75 0 001.75 20h16.5a1.75 1.75 0 001.13-3.09 6.53 6.53 0 01-1.8-2.41z" />
+      <path fill="#e55756"
+        d="M17.5 0A6.5 6.5 0 1024 6.5 6.51 6.51 0 0017.5 0zm1 8.75a.75.75 0 01-1.5 0V5.5h-.5a.75.75 0 010-1.5h1.25a.76.76 0 01.75.75z" />
+    </symbol>
+    <symbol id="i-audio" viewBox="0 0 16.62 24">
+      <path fill="#86929f"
+        d="M15.28 15.26a9.9 9.9 0 001.33-4.39 6.05 6.05 0 00-.64-3 8.61 8.61 0 00-3.32-3.27 9.46 9.46 0 01-2.46-2.08l-.11-.15A4.18 4.18 0 019.22.8a.93.93 0 00-1-.8.92.92 0 00-.85.92v16.45a5.36 5.36 0 00-2.77-.76c-2.53 0-4.6 1.66-4.6 3.7S2.07 24 4.62 24s4.61-1.66 4.61-3.69V9.55a6.63 6.63 0 014.28 5 4.54 4.54 0 01-.36.5.92.92 0 001.39 1.22 6.76 6.76 0 00.68-1z"
+        data-name="Слой 1" />
+    </symbol>
+    <symbol id="i-chevron" viewBox="0 0 12.04 6.15">
+      <path fill="#86929f" fill-rule="evenodd"
+        d="M.89.14a.53.53 0 00-.75 0 .53.53 0 000 .75L5.7 6a.87.87 0 00.18.11.59.59 0 00.37 0A.57.57 0 006.43 6L11.87.93a.53.53 0 000-.75.53.53 0 00-.75 0L6.06 4.9z"
+        data-name="Слой 1" />
+    </symbol>
+    <symbol id="i-location" viewBox="0 0 17.38 24">
+      <path fill="#86929f"
+        d="M8.69 0A8.7 8.7 0 000 8.69c0 6 7.78 14.68 8.11 15.05a.77.77 0 001.16 0c.34-.37 8.11-9.1 8.11-15A8.7 8.7 0 008.69 0zm0 13.06a4.37 4.37 0 114.37-4.37 4.37 4.37 0 01-4.37 4.37z"
+        data-name="Слой 1" />
+    </symbol>
+    <symbol id="i-photo" viewBox="0 0 27.69 24">
+      <g fill="#86929f" data-name="lay-1">
+        <path
+          d="M26.61 4.77A3.56 3.56 0 0024 3.69h-3.23l-.74-2A2.63 2.63 0 0019 .51 2.55 2.55 0 0017.54 0h-7.39a2.58 2.58 0 00-1.49.51 2.69 2.69 0 00-1 1.22l-.74 2H3.69a3.56 3.56 0 00-2.61 1.04A3.59 3.59 0 000 7.38v12.93a3.56 3.56 0 001.08 2.61A3.56 3.56 0 003.69 24H24a3.69 3.69 0 003.69-3.69V7.38a3.59 3.59 0 00-1.08-2.61zm-8.2 13.64a6.2 6.2 0 01-4.56 1.9 6.22 6.22 0 01-4.57-1.9 6.22 6.22 0 01-1.9-4.56 6.49 6.49 0 016.47-6.47 6.24 6.24 0 014.56 1.9 6.22 6.22 0 011.9 4.57 6.18 6.18 0 01-1.9 4.56z" />
+        <path
+          d="M13.85 9.69a4.17 4.17 0 00-4.16 4.16A4.17 4.17 0 0013.85 18 4.17 4.17 0 0018 13.85a4.17 4.17 0 00-4.15-4.16z" />
+      </g>
+    </symbol>
+    <symbol id="i-search" viewBox="0 0 23.17 24">
+      <path fill="#86929f"
+        d="M22.82 21.86l-5.71-5.94a9.71 9.71 0 10-1.87 1.71l5.76 6a1.26 1.26 0 001.78 0 1.26 1.26 0 00.04-1.77zM9.69 2.53a7.16 7.16 0 11-7.16 7.16 7.17 7.17 0 017.16-7.16z"
+        data-name="Слой 1" />
+    </symbol>
+    <symbol id="i-video" viewBox="0 0 24 24">
+      <path fill="#86929f"
+        d="M12 0a12 12 0 1012 12A12 12 0 0012 0zm6.23 12.33l-8.8 6a.39.39 0 01-.23.07.45.45 0 01-.19 0 .39.39 0 01-.21-.4V6a.39.39 0 01.2-.35.42.42 0 01.42 0l8.8 6a.41.41 0 010 .66z"
+        data-name="Слой 1" />
+    </symbol>
+    <symbol id="i-balance-move" viewBox="0 0 6.93 6">
+      <path fill="#484e55" d="M3.46 0l3.47 6H0z" data-name="Слой 1" />
+    </symbol>
+    <symbol id="i-help" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8" />
+      <path fill="#fff"
+        d="M7.44 10.2a4 4 0 01.19-1.29 3.21 3.21 0 01.69-1l.9-.93a2.06 2.06 0 00.57-1.39 1.58 1.58 0 00-.37-1.12A1.4 1.4 0 008.32 4a1.63 1.63 0 00-1.12.37 1.23 1.23 0 00-.42 1H5.51a2.29 2.29 0 01.79-1.78 3 3 0 012-.68 2.75 2.75 0 012 .7 2.47 2.47 0 01.73 1.9A3.45 3.45 0 0110 7.87l-.8.73a2.32 2.32 0 00-.49 1.6zm-.05 2.16a.76.76 0 01.18-.51.72.72 0 01.56-.21.69.69 0 01.75.72.73.73 0 01-.19.52.75.75 0 01-.56.2.75.75 0 01-.56-.2.77.77 0 01-.18-.52z" />
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 29.87 21.94">
+      <path
+        d="M29.43.44a1.48 1.48 0 00-2.11 0L9.43 18.33l-6.88-6.88a1.5 1.5 0 00-2.11 0 1.48 1.48 0 000 2.11l7.93 7.94a1.5 1.5 0 002.11 0l19-18.95a1.48 1.48 0 00-.05-2.11z" />
+    </symbol>
+    <symbol id="i-like" viewBox="0 0 25.5 22.29">
+      <path
+        d="M7.42 22.29h-6A1.43 1.43 0 010 20.91V9.26a1.64 1.64 0 011.45-1.6h6c.59 0 1.19.5 1.19 1.6v11.65a1.21 1.21 0 01-1.22 1.38zm-5.92-1.5h5.61V9.16H1.57a.52.52 0 00-.07.12zM19.94 21.19H18.8a.75.75 0 010-1.5h1.14c.14 0 1.38 0 1.68-.8.37-1 1.84-6.79 2.38-9A3 3 0 0023.29 8h-6.68a.75.75 0 010-1.5h6.77a1.52 1.52 0 011.19.65 4.5 4.5 0 01.89 3.06c-.08.34-2 7.91-2.44 9.15a3.15 3.15 0 01-3.08 1.83z" />
+      <path
+        d="M8.42 10.86a.75.75 0 01-.69-.47.74.74 0 01.42-1l1-.4 2.41-4.27a12.23 12.23 0 01.21-3.29A2.63 2.63 0 0114.07 0c.77 0 2.19.22 3.18 2.33 1.61 3.45 0 5.47-.1 5.56a.75.75 0 01-1.15-1s1.08-1.43-.11-4c-.3-.66-.84-1.45-1.64-1.47a1.52 1.52 0 00-1.09.58 14.75 14.75 0 00-.11 2.94v.21l-2.87 5.1-1.49.59a.66.66 0 01-.27.02zM12.71 21.4a.8.8 0 01-.26 0C11.2 20.9 8 19.69 8 19.69l.52-1.41s3.2 1.21 4.45 1.66a.77.77 0 01.44 1 .75.75 0 01-.7.46z" />
+      <path d="M19.89 21.19h-7.11a.75.75 0 110-1.5h7.11a.75.75 0 010 1.5z" />
+    </symbol>
+    <symbol id="i-comment" viewBox="0 0 25.5 23.69">
+      <path
+        d="M24.18 18.69h-8a.75.75 0 010-1.5H24V1.55H1.5v15.61h6.68a.75.75 0 010 1.5H1.32A1.5 1.5 0 010 17.16V.94A.9.9 0 01.32.21 1 1 0 011.19 0H24.31a1 1 0 01.87.18.9.9 0 01.32.73v16.25a1.5 1.5 0 01-1.32 1.53z" />
+      <path
+        d="M12.18 23.69a.78.78 0 01-.48-.17.76.76 0 01-.1-1.06l3.78-4.63a.76.76 0 011.06-.1.74.74 0 01.1 1.05l-3.78 4.63a.72.72 0 01-.58.28z" />
+      <path d="M12.18 23.69a.72.72 0 01-.58-.28l-3.79-4.63a.75.75 0 011.16-1l3.79 4.63a.76.76 0 01-.58 1.23z" />
+    </symbol>
+    <symbol id="i-repost" viewBox="0 0 27.42 20.1">
+      <path
+        d="M0 20.1L.5 18a15.9 15.9 0 015.05-7.88 16.62 16.62 0 0110.5-4.48 2.28 2.28 0 00.81-.08.82.82 0 00.37-.29 1.51 1.51 0 00.2-.63V0l10 10-10 10v-2.53-1.5-.54a1.27 1.27 0 000-.28 1.15 1.15 0 00-.22-.56.8.8 0 00-.37-.24 1.64 1.64 0 00-.48 0h-.86a23.64 23.64 0 00-8.2 1.25 21.35 21.35 0 00-5.62 3.2zm16.35-7.3a3.25 3.25 0 01.9.11 2.23 2.23 0 011.11.74 2.69 2.69 0 01.53 1.24V16.32L25.3 10l-6.37-6.39v1.18a2.82 2.82 0 01-.46 1.36 2.28 2.28 0 01-1.06.85 3.55 3.55 0 01-1.33.18 15.11 15.11 0 00-9.53 4.1 16 16 0 00-3.82 5 20.46 20.46 0 014.05-2A24.44 24.44 0 0115 12.81h1.32z"
+        data-name="Слой 1" />
+    </symbol>
+    <symbol id="i-view" viewBox="0 0 25.5 17.5">
+      <path
+        d="M12.75 12.36a3.61 3.61 0 113.61-3.61 3.61 3.61 0 01-3.61 3.61zm0-5.72a2.11 2.11 0 102.11 2.11 2.12 2.12 0 00-2.11-2.11z" />
+      <path
+        d="M.75 9.5a.86.86 0 01-.27-.05.75.75 0 01-.43-1C1.79 4 7.73 0 12.77 0s10.86 3.83 12.68 8.36a.75.75 0 01-1.4.56C22.47 5 17.2 1.5 12.77 1.5S3 5 1.45 9a.74.74 0 01-.7.5z" />
+      <path
+        d="M12.77 17.5c-5 0-11-4-12.72-8.48a.75.75 0 01.43-1 .75.75 0 011 .43C3 12.49 8.28 16 12.77 16s9.7-3.47 11.28-7.42a.75.75 0 011.4.56c-1.82 4.53-7.63 8.36-12.68 8.36z" />
+    </symbol>
+    <symbol id="i-attach" viewBox="0 0 18.03 20">
+      <path
+        d="M16.76 12.33l-1.48-1.48-6.65-6.66a3.14 3.14 0 00-4.44 4.44l6.66 6.66a.7.7 0 001-1L5.18 7.64a1.74 1.74 0 012.46-2.46l6.66 6.65 1.48 1.48a3.14 3.14 0 01-4.44 4.44l-1.23-1.23-6.9-6.91-.5-.49a4.53 4.53 0 016.41-6.41l7.4 7.4a.71.71 0 00.67.18.69.69 0 00.49-.49.68.68 0 00-.18-.68l-7.39-7.39a5.93 5.93 0 00-8.38 8.38l7.39 7.39 1.24 1.24a4.53 4.53 0 006.4-6.41z" />
+    </symbol>
+    <symbol id="i-smile" viewBox="0 0 20 20">
+      <path
+        d="M10 0a10 10 0 1010 10A10 10 0 0010 0zm0 18.92a8.92 8.92 0 116.05-15.47 9.08 9.08 0 012 2.71 8.8 8.8 0 01.87 3.84A8.93 8.93 0 0110 18.92z" />
+      <path
+        d="M6.73 8.85a1.08 1.08 0 10-1.08-1.08 1.08 1.08 0 001.08 1.08zM13.42 8.85a1.08 1.08 0 10-1.08-1.08 1.08 1.08 0 001.08 1.08zM10 15.54a6.26 6.26 0 005.24-2.85l-.9-.58a5.14 5.14 0 01-8.64 0l-.9.58a6.25 6.25 0 004.5 2.81 5.48 5.48 0 00.7.04z" />
+    </symbol>
+    <symbol id="i-camera" viewBox="0 0 22 17.86">
+      <path
+        d="M0 5.46v9.71a2.69 2.69 0 002.68 2.69h16.64A2.69 2.69 0 0022 15.17V5.46a2.55 2.55 0 00-2.55-2.55h-3.58l-.08-.37A3.27 3.27 0 0012.59 0H9.41a3.27 3.27 0 00-3.2 2.54l-.09.37H2.55A2.55 2.55 0 000 5.46zM6.56 4a.56.56 0 00.54-.43l.18-.8A2.18 2.18 0 019.41 1.1h3.18a2.16 2.16 0 012.12 1.68l.19.8a.55.55 0 00.53.43h4a1.46 1.46 0 011.47 1.45v9.71a1.59 1.59 0 01-1.59 1.59H2.68a1.59 1.59 0 01-1.58-1.59V5.46A1.45 1.45 0 012.55 4z" />
+      <path
+        d="M3.72 7.09A.74.74 0 103 6.36a.74.74 0 00.72.73zM11 15a4.62 4.62 0 10-4.62-4.62A4.62 4.62 0 0011 15zm0-8.14a3.52 3.52 0 11-3.52 3.52A3.53 3.53 0 0111 6.89z" />
+    </symbol>
+    <symbol id="i-rating" viewBox="0 0 75.41 10.85">
+      <path fill="#484e55"
+        d="M5.71 0l2.11 3.09 3.59 1.06-2.28 3 .1 3.74L5.71 9.6l-3.53 1.25.1-3.74L0 4.15l3.59-1.06zM21.71 0l2.11 3.09 3.59 1.06-2.28 3 .1 3.74-3.52-1.29-3.53 1.25.1-3.74L16 4.15l3.59-1.06zM37.71 0l2.11 3.09 3.59 1.06-2.28 3 .1 3.74-3.52-1.29-3.53 1.25.1-3.74L32 4.15l3.59-1.06zM53.71 0l2.11 3.09 3.59 1.06-2.28 3 .1 3.74-3.52-1.29-3.53 1.25.1-3.74L48 4.15l3.59-1.06z" />
+      <path fill="#c3ceda"
+        d="M69.71 0l2.11 3.09 3.59 1.06-2.28 3 .1 3.74-3.52-1.29-3.53 1.25.1-3.74L64 4.15l3.59-1.06z" />
+    </symbol>
+    <symbol id="i-more" viewBox="0 0 17.33 4">
+      <circle cx="2" cy="2" r="2" />
+      <circle cx="8.67" cy="2" r="2" />
+      <circle cx="15.33" cy="2" r="2" />
+    </symbol>
+    <symbol id="i-play" viewBox="0 0 24 24">
+      <path fill="#6c6c6c"
+        d="M12 0a12 12 0 1012 12A12 12 0 0012 0zm6.23 12.33l-8.8 6a.39.39 0 01-.23.07.45.45 0 01-.19 0 .39.39 0 01-.21-.4V6a.39.39 0 01.2-.35.42.42 0 01.42 0l8.8 6a.41.41 0 010 .66z"
+        data-name="Слой 1" />
+    </symbol>
+    <symbol id="i-percent" viewBox="0 0 52 56">
+      <path fill="#284e7b"
+        d="M17.89 19.42a6.7 6.7 0 00.54-.68L22.75 23l-.31.35a12.78 12.78 0 01-9.63 3.85C4.4 27.2 0 21 0 14.92a12.3 12.3 0 013.22-8.43 10.68 10.68 0 011.46-1.32L8.9 9.33A6.31 6.31 0 006 14.84a6.67 6.67 0 001.68 4.48 6.79 6.79 0 005.24 2.1 6.53 6.53 0 004.97-2zM3.21 50.12l22.26-24.43 4.26 4.2-18.61 20.55a3.4 3.4 0 01-1.07.72 3.35 3.35 0 01-1.25.3h-5A.83.83 0 013 51a.81.81 0 01.21-.88zM30 35.68a11.39 11.39 0 013.2-2.4l4.33 4.28a5.92 5.92 0 00-3.12 1.8 6.66 6.66 0 00-1.65 4.51 6.78 6.78 0 001.63 4.49 6.48 6.48 0 005.09 2.11 6.5 6.5 0 005-2 6.36 6.36 0 001.42-2.65l4.45 4.4a11.19 11.19 0 01-1.5 2A12.51 12.51 0 0139.38 56c-8.25 0-12.56-6.06-12.56-12A12.08 12.08 0 0130 35.68z" />
+      <path fill="#484e55"
+        d="M39.38 56c-8.25 0-12.57-6.06-12.57-12A12.08 12.08 0 0130 35.67a11.08 11.08 0 013.2-2.39l4.34 4.28a6 6 0 00-3.11 1.8 6.67 6.67 0 00-1.66 4.51 6.87 6.87 0 001.63 4.49 6.56 6.56 0 005.09 2.11 6.51 6.51 0 005-2 6.25 6.25 0 001.42-2.65l4.46 4.4a12 12 0 01-1.5 2A12.54 12.54 0 0139.38 56zM30 35.68A12.06 12.06 0 0026.82 44c0 6 4.32 12 12.56 12a12.52 12.52 0 009.44-3.78 11.87 11.87 0 001.5-2l-4.45-4.39a6.18 6.18 0 01-6.42 4.66 6.56 6.56 0 01-5.1-2.11 6.92 6.92 0 01-1.63-4.5 6.69 6.69 0 011.66-4.52 6 6 0 013.11-1.8l-4.32-4.26A11.22 11.22 0 0030 35.68zM8.8 51.46h-5A.84.84 0 013 51a.8.8 0 01.17-.89l22.31-24.43 4.26 4.21-18.62 20.55a3.23 3.23 0 01-1.07.72 3.11 3.11 0 01-1.25.3zm-5.59-1.34a.78.78 0 00-.17.87.82.82 0 00.77.46h5a3.11 3.11 0 001.25-.3 3.18 3.18 0 001.06-.72l18.6-20.54-4.24-4.19L3.22 50.12zm9.6-22.92C4.4 27.2 0 21 0 14.92a12.31 12.31 0 013.22-8.44 12.17 12.17 0 011.46-1.32l4.23 4.17A6.32 6.32 0 006 14.84a6.72 6.72 0 001.67 4.47 6.83 6.83 0 005.24 2.11 6.53 6.53 0 005-2 7.33 7.33 0 00.54-.68L22.76 23c-.1.12-.2.24-.31.35a12.75 12.75 0 01-9.64 3.85zm-8.13-22a11.36 11.36 0 00-1.45 1.29A12.27 12.27 0 000 14.92c0 6.1 4.4 12.27 12.8 12.27a12.75 12.75 0 009.62-3.85c.11-.11.21-.23.31-.34l-4.31-4.26a5.89 5.89 0 01-.53.68 6.56 6.56 0 01-5 2 6.85 6.85 0 01-5.25-2.11A6.74 6.74 0 016 14.84a6.32 6.32 0 012.89-5.51z" />
+      <path fill="#284e7b"
+        d="M4.69 2.53zm0 0A13.16 13.16 0 0112.81 0c8.44 0 12.86 6.17 12.86 12.28a12.33 12.33 0 01-2.91 8.07l-4.32-4.25a6.84 6.84 0 001.11-3.81 6.82 6.82 0 00-1.63-4.48 6.55 6.55 0 00-5.11-2.1 7.48 7.48 0 00-3.9 1zm20.79 20.52zm4.26 4.2l-4.26-4.2L41.21 5.79a3.42 3.42 0 011.07-.73 3.19 3.19 0 011.25-.31l4.57-.1c.63 0 .95.23 1 .52a1 1 0 01-.27 1zM52 41.32a12.32 12.32 0 01-1.66 6.25l-4.46-4.4a7.5 7.5 0 00.23-1.85 6.78 6.78 0 00-1.63-4.49 6.48 6.48 0 00-5.09-2.11 8.65 8.65 0 00-1.87.2l-4.33-4.27a13.63 13.63 0 016.2-1.38c8.27 0 12.61 6.06 12.61 12.05z" />
+      <path fill="#484e55"
+        d="M50.33 47.58l-4.46-4.41a7.06 7.06 0 00.24-1.85 6.89 6.89 0 00-1.63-4.49 6.56 6.56 0 00-5.09-2.11 8.12 8.12 0 00-1.87.21l-4.34-4.29a13.69 13.69 0 016.2-1.38c8.28 0 12.62 6.07 12.62 12.06a12.31 12.31 0 01-1.67 6.25zm-4.45-4.41l4.45 4.39A12.29 12.29 0 0052 41.32c0-6-4.33-12-12.61-12a13.65 13.65 0 00-6.19 1.37l4.33 4.27a8 8 0 011.86-.21 6.56 6.56 0 015.1 2.11 6.92 6.92 0 011.63 4.5 7.5 7.5 0 01-.24 1.81zM29.74 27.26l-4.25-4.19L41.21 5.79a3.25 3.25 0 011.07-.73 3.3 3.3 0 011.25-.32l4.56-.1c.56 0 .94.19 1.06.53a1 1 0 01-.28 1zm-4.25-4.21l4.25 4.19L48.88 6.11a1 1 0 00.27-.94c-.12-.33-.49-.52-1-.52l-4.57.1a3.35 3.35 0 00-1.25.32 3.23 3.23 0 00-1.06.72zm-2.73-2.68l-4.33-4.27a6.76 6.76 0 001.12-3.8 6.84 6.84 0 00-1.64-4.48 6.58 6.58 0 00-5.1-2.1 7.36 7.36 0 00-3.9 1l-4.23-4.2A13.26 13.26 0 0112.81 0c8.45 0 12.87 6.18 12.87 12.29a12.34 12.34 0 01-2.92 8.07zm-4.32-4.27l4.32 4.25a12.38 12.38 0 002.91-8.06C25.67 6.19 21.25 0 12.81 0A13.23 13.23 0 004.7 2.53l4.21 4.16a7.36 7.36 0 013.9-1 6.57 6.57 0 015.11 2.11 7 7 0 01.52 8.29z" />
+    </symbol>
+    <symbol id="i-calendar" viewBox="0 0 60 60">
+      <g fill="#284e7b" data-name="Слой 1">
+        <path d="M45.23 27a2.34 2.34 0 10-2.34-2.34A2.35 2.35 0 0045.23 27z" />
+        <path
+          d="M50.63 4.69h-3.05V2.34a2.35 2.35 0 00-4.69 0v2.35H32.23V2.34a2.35 2.35 0 00-4.69 0v2.35H17V2.34a2.35 2.35 0 00-4.69 0v2.35H9.38A9.38 9.38 0 000 14.06v36.57A9.39 9.39 0 009.38 60H27.3a2.35 2.35 0 100-4.69H9.38a4.69 4.69 0 01-4.69-4.68V14.06a4.69 4.69 0 014.69-4.68h2.92v2.34a2.35 2.35 0 004.69 0V9.38h10.55v2.34a2.35 2.35 0 004.69 0V9.38h10.66v2.34a2.35 2.35 0 004.69 0V9.38h3.05a4.69 4.69 0 014.68 4.68v13.36a2.35 2.35 0 104.69 0V14.06a9.38 9.38 0 00-9.37-9.37z" />
+        <path
+          d="M45.82 31.64A14.18 14.18 0 1060 45.82a14.19 14.19 0 00-14.18-14.18zm0 23.67a9.49 9.49 0 119.49-9.49 9.5 9.5 0 01-9.49 9.49z" />
+        <path
+          d="M49.22 43.48h-1.06V41a2.34 2.34 0 10-4.68 0v4.8a2.34 2.34 0 002.34 2.34h3.4a2.34 2.34 0 000-4.68zM35 27a2.34 2.34 0 10-2.34-2.34A2.34 2.34 0 0035 27zM24.84 37.15a2.35 2.35 0 10-2.34-2.35 2.35 2.35 0 002.34 2.35zM14.65 27a2.34 2.34 0 10-2.35-2.34A2.34 2.34 0 0014.65 27zM14.65 37.15a2.35 2.35 0 10-2.35-2.35 2.35 2.35 0 002.35 2.35zM14.65 47.34A2.34 2.34 0 1012.3 45a2.34 2.34 0 002.35 2.34zM24.84 47.34A2.34 2.34 0 1022.5 45a2.35 2.35 0 002.34 2.34zM24.84 27a2.34 2.34 0 10-2.34-2.34A2.35 2.35 0 0024.84 27z" />
+      </g>
+    </symbol>
+    <symbol id="i-wallet" viewBox="0 0 66 56.65">
+      <path fill="#284e7b"
+        d="M62.3 24.63h-1.57V15.2a7 7 0 00-7-7H52.3V4.69A4.72 4.72 0 0047.6 0H5.73A5.73 5.73 0 000 5.64v46.3a4.71 4.71 0 004.71 4.71h49.05a7 7 0 007-7v-9.44h1.57A3.68 3.68 0 0066 36.53v-8.21a3.71 3.71 0 00-3.7-3.69zM5.73 3.25H47.6a1.47 1.47 0 011.47 1.45v3.52H5.73a2.49 2.49 0 010-5zm51.76 46.4a3.74 3.74 0 01-3.74 3.73H4.7a1.46 1.46 0 01-1.46-1.46v-41a5.72 5.72 0 002.49.56h48a3.75 3.75 0 013.74 3.74v9.43H46.4a3.69 3.69 0 00-3.68 3.69v8.21a3.68 3.68 0 003.68 3.68h11.09zm5.25-13.12a.43.43 0 01-.44.44H46.41a.43.43 0 01-.43-.44v-8.21a.44.44 0 01.43-.44H62.3a.44.44 0 01.44.44z"
+        data-name="Слой 1" />
+    </symbol>
+  </svg>
+  <div class="wrapper">
+    <div class="topbar">
+      <div class="container">
+        <div class="topbar__inner">
+          <div class="topbar__menu-btn js-menu-btn">
+            <div class="menu-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="topbar__left-col">
+            <a href="/" class="topbar__logo">Honest</a>
+            <div class="topbar__search">
+              <div class="topbar__search-icon">
+                <svg class="svg-icon">
+                  <use xlink:href="#i-search"></use>
+                </svg>
+              </div>
+              <input type="text" placeholder="Поиск" class="topbar__search-field">
+            </div>
+            <div class="topbar__links">
+              <div class="topbar__links-list">
+                <div class="topbar__links-item">
+                  <a href="#" class="topbar__links-btn">
+                    <div class="topbar__links-btn-icon">
+                      <svg class="svg-icon">
+                        <use xlink:href="#i-audio"></use>
+                      </svg>
+                    </div>
+                    <div class="topbar__links-btn-label">Аудио</div>
+                  </a>
+                </div>
+                <div class="topbar__links-item">
+                  <a href="#" class="topbar__links-btn">
+                    <div class="topbar__links-btn-icon">
+                      <svg class="svg-icon">
+                        <use xlink:href="#i-photo"></use>
+                      </svg>
+                    </div>
+                    <div class="topbar__links-btn-label">Фото</div>
+                  </a>
+                </div>
+                <div class="topbar__links-item">
+                  <a href="#" class="topbar__links-btn">
+                    <div class="topbar__links-btn-icon">
+                      <svg class="svg-icon">
+                        <use xlink:href="#i-video"></use>
+                      </svg>
+                    </div>
+                    <div class="topbar__links-btn-label">Видео</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="topbar__profile">
+            <div class="topbar__profile-appointment hover">
+              <div class="topbar__profile-appointment-btn">
+                <svg class="svg-icon">
+                  <use xlink:href="#i-appointment"></use>
+                </svg>
+              </div>
+              <div class="topbar__profile-appointment-balloon"></div>
+            </div>
+            <div class="topbar__profile-location hover">
+              <div class="topbar__profile-location-icon">
+                <svg class="svg-icon">
+                  <use xlink:href="#i-location"></use>
+                </svg>
+              </div>
+              <div class="topbar__profile-location-label">Карабулак</div>
+            </div>
+            <div class="topbar__profile-avatar hover">
+              <img src="/assets/img/profile/avatar.png" alt="Магомед Евлоев">
+            </div>
+            <div class="topbar__profile-chevron hover">
+              <svg class="svg-icon">
+                <use xlink:href="#i-chevron"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="topbar__m-profile">
+            <div class="topbar__profile-avatar hover">
+              <img src="/assets/img/profile/avatar.png" alt="Магомед Евлоев">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="m-menu js-menu">
+      <div class="container">
+        <div class="m-menu__inner">
+        <div class="m-menu__list">
+            <a href="/index" class="m-menu__item">Моя страница</a>
+            <a href="/news" class="m-menu__item">Новости</a>
+            <a href="/partners" class="m-menu__item">Партнеры</a>
+            <a href="/community" class="m-menu__item">Сообщества</a>
+            <a href="/investments" class="m-menu__item">Инвестиции</a>
+            <a href="/motivation" class="m-menu__item">Мотивация</a>
+            <a href="/education" class="m-menu__item">Обучение</a>
+            <a href="/startups" class="m-menu__item">Стартапы</a>
+            <a href="/store" class="m-menu__item">Маркет</a>
+            <a href="/crypto" class="m-menu__item">Криптовалюта</a>
+            <a href="/credit" class="m-menu__item is-active">Кредит</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__nav">
+            <div class="header__nav-list js-nav-list">
+              <div class="header__nav-item">
+                <a href="/index" class="header__nav-btn js-nav-item">Моя страница</a>
+              </div>
+              <div class="header__nav-item">
+                <a href="/news" class="header__nav-btn js-nav-item">Новости</a>
+              </div>
+              <div class="header__nav-item">
+                <a href="/partners" class="header__nav-btn js-nav-item">Партнеры</a>
+              </div>
+              <div class="header__nav-item">
+                <a href="/community" class="header__nav-btn js-nav-item">Сообщества</a>
+              </div>
+              <div class="header__nav-item">
+                <a href="/investments" class="header__nav-btn js-nav-item">Инвестиции</a>
+              </div>
+              <div class="header__nav-item">
+                <a href="/motivation" class="header__nav-btn js-nav-item">Мотивация</a>
+              </div>
+              <div class="header__nav-item">
+                <a href="/education" class="header__nav-btn js-nav-item">Обучение</a>
+              </div>
+              <div class="header__nav-item">
+                <a href="/startups" class="header__nav-btn js-nav-item">Стартапы</a>
+              </div>
+              <div class="header__nav-item">
+                <a href="/store" class="header__nav-btn js-nav-item">Маркет</a>
+              </div>
+              <div class="header__nav-item">
+                <a href="/crypto" class="header__nav-btn js-nav-item">Криптовалюта</a>
+              </div>
+              <div class="header__nav-item">
+                <a href="/credit" class="header__nav-btn js-nav-item is-active">Кредит</a>
+              </div>
+              <div class="header__nav-item-line js-nav-item-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="container">
+        <div class="content__row">
+          <div class="content__col content__col--sidebar order--2 order--m-1">
+
+            <div class="block">
+              <div class="block__inner widget widget-quote">
+                <div class="widget__title">Цитата дня</div>
+                <div class="widget__body">
+                  <div class="widget-quote__text">
+                    <p>Наш большой недостаток в том, что мы слишком быстро опускаем руки. Наиболее верный путь к успеху – все время пробовать еще один раз.</p>
+                  </div>
+                  <div class="widget-quote__author">Томас Эдисон</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="block">
+              <div class="block__inner widget widget-recommend">
+                <div class="widget__title">Вам может понравиться</div>
+                <div class="widget__body">
+                  <div class="widget-recommend__row">
+                    <div class="widget-recommend__avatar">
+                      <img src="/assets/img/comm/blank_avatar.png" alt="Avatar">
+                    </div>
+                    <div class="widget-recommend__info">
+                      <div class="widget-recommend__info-title hover">vc.ru</div>
+                      <div class="widget-recommend__info-subtitle">740 участников</div>
+                    </div>
+                  </div>
+                  <div class="widget-recommend__row">
+                    <div class="widget-recommend__avatar">
+                      <img src="/assets/img/comm/blank_avatar.png" alt="Avatar">
+                    </div>
+                    <div class="widget-recommend__info">
+                      <div class="widget-recommend__info-title hover">TJournal</div>
+                      <div class="widget-recommend__info-subtitle">1 260 участников</div>
+                    </div>
+                  </div>
+                  <div class="widget-recommend__row">
+                    <div class="widget-recommend__avatar">
+                      <img src="/assets/img/comm/blank_avatar.png" alt="Avatar">
+                    </div>
+                    <div class="widget-recommend__info">
+                      <div class="widget-recommend__info-title hover">Телеканал Дождь</div>
+                      <div class="widget-recommend__info-subtitle">2 230 участников</div>
+                    </div>
+                  </div>
+                  <div class="widget-recommend__row">
+                    <div class="widget-recommend__avatar">
+                      <img src="/assets/img/comm/blank_avatar.png" alt="Avatar">
+                    </div>
+                    <div class="widget-recommend__info">
+                      <div class="widget-recommend__info-title hover">РБК</div>
+                      <div class="widget-recommend__info-subtitle">16 210 участников</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content__col content__col--main order--1 order--m-2">
+            <div class="block">
+              <div class="block__inner block__inner--pd32">
+                <div class="block__content">
+                  <div class="credit">
+                    <div class="credit__title">Беспроцентный кредит</div>
+                    <div class="credit__content">
+                      <div class="credit__profits">
+                        <div class="credit__profits-list">
+                          <div class="credit__profits-item">
+                            <div class="credit__profits-card">
+                              <div class="credit__profits-icon">
+                                <svg class="svg-icon">
+                                  <use xlink:href="#i-percent"></use>
+                                </svg>
+                              </div>
+                              <div class="credit__profits-label">Без процентов</div>
+                            </div>
+                          </div>
+                          <div class="credit__profits-item">
+                            <div class="credit__profits-card">
+                              <div class="credit__profits-icon">
+                                <svg class="svg-icon">
+                                  <use xlink:href="#i-calendar"></use>
+                                </svg>
+                              </div>
+                              <div class="credit__profits-label">Срок кредита
+                                от 4 до 48 месяцев</div>
+                            </div>
+                          </div>
+                          <div class="credit__profits-item">
+                            <div class="credit__profits-card">
+                              <div class="credit__profits-icon">
+                                <svg class="svg-icon">
+                                  <use xlink:href="#i-wallet"></use>
+                                </svg>
+                              </div>
+                              <div class="credit__profits-label">Сумма кредита
+                                от <br>5 000 до 5 000 000</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="credit__separator"></div>
+                      <div class="credit__calc">
+                        <div class="credit__calc-title">Рассчитать онлайн</div>
+                        <div class="credit__calc-row">
+                          <div class="credit__calc-input-wrap">
+                            <div class="credit__calc-input-label">Сумма</div>
+                            <div class="credit__calc-input">
+                              <input type="text" value="1 000 000" class="credit__calc-input-control">
+                            </div>
+                          </div>
+                          <div class="credit__calc-total">
+                            <div class="credit__calc-total-price">
+                              34 849 <span>₽</span>
+                            </div>
+                            <div class="credit__calc-total-caption">Переплата</div>
+                          </div>
+                        </div>
+                        <div class="credit__calc-row">
+                          <div class="credit__calc-input-wrap">
+                            <div class="credit__calc-input-label">Срок</div>
+                            <div class="credit__calc-input">
+                              <input type="text" value="48" class="credit__calc-input-control">
+                            </div>
+                          </div>
+                          <div class="credit__calc-total">
+                            <div class="credit__calc-total-price">
+                              11 355 <span>₽</span>
+                            </div>
+                            <div class="credit__calc-total-caption">Ежемесячный платеж</div>
+                          </div>
+                        </div>
+                        <div class="credit__calc-btn hover">Рассчитать</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="content__col content__col--sidebar order--3 order--m-3">
+
+            <div class="block">
+              <div class="block__inner widget widget-courses">
+                <div class="widget__body">
+                  <div class="widget-courses__head">
+                    <div class="widget-courses__head-sort">
+                      <div class="widget-courses__head-sort-item hover">1 д</div>
+                      <div class="widget-courses__head-sort-item hover">1 н</div>
+                      <div class="widget-courses__head-sort-item hover">1 м</div>
+                      <div class="widget-courses__head-sort-item hover">1 г</div>
+                    </div>
+                    <div class="widget-courses__head-select hover">
+                      <div class="widget-courses__head-select-label">USD</div>
+                      <div class="widget-courses__head-select-icon">
+                        <svg class="svg-icon">
+                          <use xlink:href="#i-chevron"></use>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="widget-courses__row hover">
+                    <div class="widget-courses__col widget-courses__label">USD</div>
+                    <div class="widget-courses__col widget-courses__time">11:56</div>
+                    <div class="widget-courses__col widget-courses__value">65,42</div>
+                    <div class="widget-courses__col widget-courses__value">64,67</div>
+                  </div>
+                  <div class="widget-courses__row hover">
+                    <div class="widget-courses__col widget-courses__label">EUR</div>
+                    <div class="widget-courses__col widget-courses__time">11:56</div>
+                    <div class="widget-courses__col widget-courses__value">65,42</div>
+                    <div class="widget-courses__col widget-courses__value">64,67</div>
+                  </div>
+                  <div class="widget-courses__row hover">
+                    <div class="widget-courses__col widget-courses__label">EUR</div>
+                    <div class="widget-courses__col widget-courses__time">11:56</div>
+                    <div class="widget-courses__col widget-courses__value">65,42</div>
+                    <div class="widget-courses__col widget-courses__value">64,67</div>
+                  </div>
+                  <div class="widget-courses__row hover">
+                    <div class="widget-courses__col widget-courses__label">EUR</div>
+                    <div class="widget-courses__col widget-courses__time">11:56</div>
+                    <div class="widget-courses__col widget-courses__value">65,42</div>
+                    <div class="widget-courses__col widget-courses__value">64,67</div>
+                  </div>
+                  <div class="widget-courses__row hover">
+                    <div class="widget-courses__col widget-courses__label">EUR</div>
+                    <div class="widget-courses__col widget-courses__time">11:56</div>
+                    <div class="widget-courses__col widget-courses__value">65,42</div>
+                    <div class="widget-courses__col widget-courses__value">64,67</div>
+                  </div>
+                  <div class="widget-courses__row hover">
+                    <div class="widget-courses__col widget-courses__label">EUR</div>
+                    <div class="widget-courses__col widget-courses__time">11:56</div>
+                    <div class="widget-courses__col widget-courses__value">65,42</div>
+                    <div class="widget-courses__col widget-courses__value">64,67</div>
+                  </div>
+                  <div class="widget-courses__row hover">
+                    <div class="widget-courses__col widget-courses__label">EUR</div>
+                    <div class="widget-courses__col widget-courses__time">11:56</div>
+                    <div class="widget-courses__col widget-courses__value">65,42</div>
+                    <div class="widget-courses__col widget-courses__value">64,67</div>
+                  </div>
+                  <div class="widget-courses__row hover">
+                    <div class="widget-courses__col widget-courses__label">EUR</div>
+                    <div class="widget-courses__col widget-courses__time">11:56</div>
+                    <div class="widget-courses__col widget-courses__value">65,42</div>
+                    <div class="widget-courses__col widget-courses__value">64,67</div>
+                  </div>
+                  <div class="widget-courses__row hover">
+                    <div class="widget-courses__col widget-courses__label">EUR</div>
+                    <div class="widget-courses__col widget-courses__time">11:56</div>
+                    <div class="widget-courses__col widget-courses__value">65,42</div>
+                    <div class="widget-courses__col widget-courses__value">64,67</div>
+                  </div>
+                  <div class="widget-courses__row hover">
+                    <div class="widget-courses__col widget-courses__label">EUR</div>
+                    <div class="widget-courses__col widget-courses__time">11:56</div>
+                    <div class="widget-courses__col widget-courses__value">65,42</div>
+                    <div class="widget-courses__col widget-courses__value">64,67</div>
+                  </div>
+                  <div class="widget-courses__row hover">
+                    <div class="widget-courses__col widget-courses__label">EUR</div>
+                    <div class="widget-courses__col widget-courses__time">11:56</div>
+                    <div class="widget-courses__col widget-courses__value">65,42</div>
+                    <div class="widget-courses__col widget-courses__value">64,67</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="block block--noshadow block--transbg">
+              <div class="sidebar-links">
+                <a href="#" class="sidebar-links__item hover">Политика конфиденциальности</a>
+                <a href="#" class="sidebar-links__item hover">Условия использования</a>
+                <a href="#" class="sidebar-links__item hover">Реклама</a>
+                <a href="#" class="sidebar-links__item hover">Вакансии</a>
+                <a href="#" class="sidebar-links__item hover">О нас</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="assets/js/bundle.js"></script>
+</body>
+
+</html>

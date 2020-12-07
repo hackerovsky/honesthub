@@ -1,0 +1,154 @@
+.startups {
+  padding: 0 4px;
+
+  @media ($m-m) {
+    padding: 0;
+  }
+}
+
+.startups__title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #484E55;
+  margin-bottom: 24px;
+
+  @media ($m-m) {
+    margin-bottom: 40px;
+  }
+}
+
+.startups__sort {
+  display: flex;
+  flex-wrap: wrap;
+  
+  @media ($m-m) {
+    flex-wrap: nowrap;
+  }
+}
+
+.startups__sort-label {
+  font-size: 16px;
+  line-height: 21px;
+  color: #C3CEDA;
+  margin-right: 16px;
+    
+  @media ($m-m) {
+    font-size: 18px;
+    margin-right: 40px;
+  }
+}
+
+.startups__sort-value {
+  font-size: 16px;
+  line-height: 21px;
+  color: #86929F;
+
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+  
+  @media ($m-m) {
+    font-size: 18px;
+
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+ 
+}
+
+.startups__list {
+  // margin: 32px 0 0 0;
+}
+
+.startups__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 36px 0px 36px 0;
+
+  @media ($m-s) {
+    padding: 36px 32px 36px 0;
+  }
+
+  @media ($m-m) {
+    flex-wrap: nowrap;
+    padding: 36px 64px 36px 0;
+  }
+
+  @media ($m-l) {
+    padding: 36px 124px 36px 0;
+  }
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $c-greyLight;
+  }
+}
+
+.startups__item-user-topinfo {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin-bottom: 8px;
+}
+
+.startups__item-user-info {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.startups__item-user-topavatar {
+  width: 60px;
+  height: 60px;
+  margin-right: 16px;
+  border-radius: 100px;
+  overflow: hidden;
+
+  & > img {
+    height: 100%;
+  }
+}
+
+.startups__item-user-avatar {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+
+  & > img {
+    width: 100%;
+  }
+}
+
+.startups__item-user-toptitle {
+  font-size: 18px;
+  line-height: 21px;
+  color: #284E7B;
+}
+
+.startups__item-user-title {
+  font-size: 14px;
+  line-height: 21px;
+  color: #284E7B;
+}
+
+.startups__item-text {
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #484E55;
+}
+
+.startups__item-price {
+  font-size: 18px;
+  line-height: 21px;
+  color: #484E55;
+}
+
+.startups__item-price-label {
+  font-size: 14px;
+  line-height: 16px;
+  color: #C3CEDA;
+  padding: 16px 0 8px 0;
+}

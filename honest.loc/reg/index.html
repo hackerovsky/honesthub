@@ -1,0 +1,47 @@
+<?php
+if (!empty($_COOKIE['sid'])) {session_id($_COOKIE['sid']);}
+session_start();
+require_once 'classes/Auth.class.php';
+require_once 'stayt.php';
+?>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Главная страница</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<h1>Главная страница</h1>
+<?php if (Auth\User::isAuthorized()): ?>
+<div class="omus">
+<?php echo "<p class='privet'>Здравствуй, <span>".$arr['names']."</span>!</p>";?>
+<script type="text/javascript"> function displ(ddd) { if (document.getElementById(ddd).style.display == 'none') {document.getElementById(ddd).style.display = 'block'} else {document.getElementById(ddd).style.display = 'none'} } </script>
+<p class="mod"><a href="javascript: displ('var222')">Профиль</a></p>
+<div id="var222" style="display: none;">
+<div class="dannye">
+<p class="bolden">Ваши данные:</p>
+<p class="sbk">Ваше имя:<br><span class='name'><?php echo $arr['names'];?></span></p>
+<p class="sbk">Ваш e-mail:<br><span class='name'><?php echo $arr['username'];?></span></p>
+</div><a href="javascript: displ('var222')"></a></div>
+<form novalidate="novalidate" class="form-signin ajax" method="post" action="ajax.php">
+<input type="hidden" name="act" value="logout">
+<input type="submit" class="vyxod" value="Выйти" /></form></div><?php else: ?>
+
+<div class="mydiv"><form class="form-signin ajax" method="post" action="ajax.php">
+<p class="zag">Авторизация</p>
+<div class="main-error alert alert-error hide"></div>
+<span class="testex">Введите E-mail</span><br />
+<input name="username" type="text" class="input-block-level"><br />
+<span class="testex">Введите пароль</span><br />
+<input name="password" type="password" class="input-block-level"><br />
+<input type="hidden" name="act" value="login">
+<input type="submit" class="button"  value="Войти">
+</form><p class="reg"><a href="registr.html">Регистрация</a></p></div><?php endif; ?>
+
+<br><p>Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст Некий текст</p>
+<p class="feet">Материал скачан с сайта: <a href="https://age-dragon.com/scripts/registraciya.html" target="_blank">Age-Dragon.com</a></p>
+</script><script type="text/javascript" src="../assets/js/bundle.js"></script></body></html>

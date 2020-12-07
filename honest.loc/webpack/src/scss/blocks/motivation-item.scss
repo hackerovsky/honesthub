@@ -1,0 +1,253 @@
+.motivation-item {
+  // padding: 24px 24px 16px 24px;
+}
+
+.motivation-item__head {
+  position: relative;
+  display: flex;
+}
+
+.motivation-item__head-avatar {
+  width: 55px;
+  height: 55px;
+  margin-right: 16px;
+  border-radius: 100px;
+  overflow: hidden;
+
+  & > img {
+    width: 100%;
+  }
+}
+
+.motivation-item__head-info {
+  display: flex;
+  align-items: center;
+}
+
+.motivation-item__head-title {
+  font-size: 18px;
+  line-height: 133.19%;
+  color: $c-darkBlue;
+  margin-right: 40px;
+}
+
+.motivation-item__head-subtitle {
+  font-size: 14px;
+  line-height: 133.19%;
+  letter-spacing: 0.01em;
+  color: #C3CEDA;
+
+  @media ($m-m) {
+    font-size: 18px;
+  }
+}
+
+.motivation-item__head-more {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  color: #C3CEDA;
+}
+
+.motivation-item__content {
+  margin-top: 24px;
+  padding-bottom: 16px;
+}
+
+.motivation-item__big-link {
+  display: flex;
+}
+
+.motivation-item__big-link-ico {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.motivation-item__big-link-label {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #484E55;
+
+  @media ($m-m) {
+    font-size: 24px;
+  }
+}
+
+.motivation-item__text {
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 133.19%;
+  letter-spacing: 0.02em;
+}
+
+.motivation-item__pic {
+  margin-top: 16px;
+
+  & > img {
+    width: 100%;
+  }
+}
+
+.motivation-item__link {
+  display: block;
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 133.19%;
+  letter-spacing: 0.02em;
+  color: $c-text;
+}
+
+.motivation-item__link-url {
+  display: block;
+  margin-top: 8px;
+  font-size: 18px;
+  line-height: 133.19%;
+  letter-spacing: 0.01em;
+  color: $c-grey_3;
+}
+
+.motivation-item__actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  // padding-bottom: 42px;
+  // border-bottom: 1px solid $c-greyLight;
+}
+
+.motivation-item__actions-left {
+  display: flex;
+}
+
+.motivation-item__actions-right {
+  display: none;
+
+  @media ($m-m) {
+    display: flex;
+  }
+}
+
+.motivation-item__actions-item {
+  display: flex;
+  align-items: center;
+  
+  &:not(:last-child) {
+    margin-right: 32px;
+  }
+}
+
+.motivation-item__actions-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  color: #c5c5c5;
+}
+
+.motivation-item__actions-label {
+  font-size: 18px;
+  line-height: 133.19%;
+  letter-spacing: 0.01em;
+  color: $c-grey_4;
+}
+
+.motivation-item__comments {
+  margin: 16px 0 0 0;
+}
+
+.motivation-item__comments-filter {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: $c-darkBlue;
+}
+
+.motivation-item__comments-filter-label {
+  margin-right: 8px;
+}
+
+.motivation-item__comments-filter-icon {
+  width: 10px;
+  height: 16px;
+}
+
+.motivation-item__comments-item {
+  margin-top: 16px;
+
+  &:not(:last-child) {
+    padding-bottom: 16px;
+    border-bottom: 1px solid $c-greyLight;
+  }
+}
+
+.motivation-item__comments-showmore {
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #284E7B;
+}
+
+.motivation-item__comments-bottom {
+  display: flex;
+  height: 40px;
+  margin-top: 24px;
+}
+
+.motivation-item__comments-bottom-avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 22px;
+  border-radius: 100px;
+
+  & > img {
+    width: 100%;
+  }
+}
+
+.motivation-item__comments-bottom-input {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #E2E2E2;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-right: 16px;
+}
+
+.motivation-item__comments-bottom-input-control {
+  background:transparent;
+  border: none;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 10px 16px;
+
+  &::placeholder {
+    color: #C3CEDA;;
+  }
+}
+
+.motivation-item__comments-bottom-input-actions {
+  display: flex;
+  align-items: center;
+}
+
+.motivation-item__comments-bottom-input-actions-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21px;
+  height: 21px;
+  color: #A5A5A5;
+
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+}

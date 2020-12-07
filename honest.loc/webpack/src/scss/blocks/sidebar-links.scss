@@ -1,0 +1,35 @@
+.sidebar-links {
+}
+
+.sidebar-links__item {
+  position: relative;
+  display: inline-flex;
+  font-size: 16px;
+  line-height: 21px;
+  color: #86929F;
+  margin-bottom: 8px;
+
+  @media ($m-m) {
+    font-size: 18px;
+  }
+
+  
+
+  &:not(:last-child) {
+    margin-right: 24px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      right: -16px;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      width: 3px;
+      height: 3px;
+      background-color: #86929F;
+      border-radius: 100px;
+      opacity: 1;
+    }
+  }
+}

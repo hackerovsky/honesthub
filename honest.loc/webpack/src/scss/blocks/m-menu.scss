@@ -1,0 +1,27 @@
+.m-menu {
+  display: block;
+  background: #fff;
+  max-height: 0;
+  transition: .2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  overflow: hidden;
+
+  @media ($m-m) {
+    display: none;
+  }
+
+  &.is-opened {
+    max-height: 420px;
+  }
+}
+
+.m-menu__list {
+  padding: 24px 0;
+}
+
+.m-menu__item {
+  height: 48px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}

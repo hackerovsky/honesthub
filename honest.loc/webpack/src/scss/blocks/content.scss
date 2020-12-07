@@ -1,0 +1,33 @@
+.content {
+  padding: 24px 0 24px 0;
+}
+
+.content__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -24px 0 0 -24px;
+
+  @media ($m-m) {
+    flex-wrap: nowrap;
+  }
+}
+
+.content__col {
+  padding: 26px 0 0 24px;
+  width: 100%;
+  
+  @media ($m-m) {
+
+    &--sidebar {
+      width: 25%;
+    }
+  
+    &--main {
+      width: 50%;
+    }
+  
+    &--bigmain {
+      width: 75%;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.widget-balance__row {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.widget-balance__label {
+  width: 58px;
+  color: $c-grey_2;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.widget-balance__value {
+  flex-grow: 1;
+  width: 58px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.widget-balance__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8px;
+  height: 16px;
+}

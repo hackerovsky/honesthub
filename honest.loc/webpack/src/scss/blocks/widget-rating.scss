@@ -1,0 +1,157 @@
+.widget-rating__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+    border-bottom: 1px solid $c-greyLight;
+  }
+}
+
+.widget-rating__label {
+  color: $c-text;
+  font-size: 18px;
+}
+
+.widget-rating__diagram {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.widget-rating__diagram-bg {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 64px;
+  height: 64px;
+}
+
+.widget-rating__diagram-bg-svg {
+  display: inline-block;
+  vertical-align: middle;
+  stroke: $c-greyLight;
+  stroke-width: 8px;
+  width: 64px;
+  height: 64px;
+  transform: rotate(270deg);
+}
+
+.widget-rating__diagram-lay {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 64px;
+  height: 64px;
+}
+
+.widget-rating__diagram-lay-svg {
+  display: inline-block;
+  vertical-align: middle;
+  stroke: $c-darkBlue;
+  stroke-width: 8px;
+  width: 64px;
+  height: 64px;
+  transform: rotate(270deg);
+
+  & > #info-bar {
+    stroke-dashoffset: 400;
+    animation: fillInfoBar 1s ease-in;
+  }
+
+  & > #deals-bar {
+    stroke-dashoffset: 470;
+    animation: fillDealBar 1s ease-in;
+  }
+
+  & > #study-bar {
+    stroke-dashoffset: 360;
+    animation: fillStudyBar 1s ease-in;
+  }
+
+  & > #partners-bar {
+    stroke-dashoffset: 1;
+    animation: fillPartnersBar 1s ease-in;
+  }
+
+  &.is-complete {
+    stroke: $c-green;
+  }
+}
+
+@keyframes fillInfoBar {
+  from {
+    stroke-dashoffset: 500;
+  }
+
+  to {
+    stroke-dashoffset: 400;
+  }
+}
+
+@keyframes fillDealBar {
+  from {
+    stroke-dashoffset: 500;
+  }
+
+  to {
+    stroke-dashoffset: 470;
+  }
+}
+
+@keyframes fillStudyBar {
+  from {
+    stroke-dashoffset: 500;
+  }
+
+  to {
+    stroke-dashoffset: 360;
+  }
+}
+
+@keyframes fillPartnersBar {
+  from {
+    stroke-dashoffset: 500;
+  }
+
+  to {
+    stroke-dashoffset: 1;
+  }
+}
+
+.widget-rating__diagram-value {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  margin: auto;
+  font-size: 18px;
+}
+
+.widget-rating__diagram-value-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 22px;
+  margin: auto;
+
+  &.is-complete {
+    color: $c-green;
+  }
+}

@@ -1,0 +1,129 @@
+.crypto__head {
+  display: flex;
+  align-items: center;
+}
+
+.crypto__head-title {
+  margin-right: 14px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #484E55;
+}
+
+.crypto__head-subtitle {
+  font-size: 14px;
+  line-height: 21px;
+  color: #A5A5A5;
+
+  @media ($m-s) {
+    font-size: 18px;
+  }
+
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+}
+
+.crypto__subhead {
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #A5A5A5;
+}
+
+.crypto__content {
+  margin-top: 24px;
+}
+
+.crypto__content-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -24px 0 0 -24px;
+}
+
+.crypto__content-col {
+  width: 100%;
+  padding: 24px 0 0 24px;
+
+  @media ($m-s) {
+    width: 50%;
+  }
+}
+
+.crypto__content-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #484E55;
+}
+
+.crypto__content-input-label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #C3CEDA;
+}
+
+.crypto__content-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 16px;
+  padding-right: 10px;
+  border: 1px solid #D3DEE9;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.crypto__content-input-control {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #C3CEDA;
+  appearance: none;
+  border: none; 
+}
+
+.crypto__content-input-control-block {
+  display: flex;
+  align-items: center;
+}
+
+.crypto__content-input-control-label {
+  margin-right: 8px;
+  font-size: 14px;
+line-height: 16px;
+text-align: right;
+color: #C3CEDA;
+}
+
+.crypto__content-input-control-btns {
+  padding: 8px 0;
+}
+
+.crypto__content-input-control-btn {
+  width: 10px;
+  height: 14px;
+}
+
+.crypto__content-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  width: 100%;
+  background: #284E7B;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+}
